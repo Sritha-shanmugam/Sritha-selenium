@@ -20,9 +20,9 @@ public class Button {
         String color=buttoncolour.getCssValue("background-color");
         System.out.println("Button color is :" +color);
 
-        WebElement buttonsize= driver.findElement(By.name("j_idt88:j_idt98"));
-        int height=buttonsize.getSize().getHeight();
-        int width=buttonsize.getSize().getWidth();
+        WebElement Buttonsize= driver.findElement(By.name("j_idt88:j_idt98"));
+        int height=Buttonsize.getSize().getHeight();
+        int width=Buttonsize.getSize().getWidth();
         System.out.println("Height is " +height + "  Width is " +width);
 
         WebElement homebutton= driver.findElement(By.name("j_idt88:j_idt90"));

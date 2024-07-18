@@ -3,7 +3,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 
-public class facebookaccount {
+public class FacebookAccount {
     public static void main(String[] srgs) {
         System.getProperty("webdriver.chrome.driver","\"C:\\Users\\ADMIN\\Downloads\\chromedriver-win64.exe");
         WebDriver driver=new ChromeDriver();

@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.Set;
 
-public class windowhandle {
+public class WindowHandle {
     public static void main(String[] args) throws InterruptedException {
         System.getProperty("webdriver.chrome.driver","\"C:\\Users\\ADMIN\\Downloads\\chromedriver-win64.exe");
         WebDriver driver=new ChromeDriver();

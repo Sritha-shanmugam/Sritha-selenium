@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.Select;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class dropdown {
+public class Dropdown {
     public static void main(String[] args) throws InterruptedException {
         System.getProperty("webdriver.chrome.driver","\"C:\\Users\\ADMIN\\Downloads\\chromedriver-win64.exe");
         WebDriver driver=new ChromeDriver();
